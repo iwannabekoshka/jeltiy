@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font: inherit;
+}
+
+html {
+  font-size: 24px;
+}
+body {
+  padding-block: 50px;
+
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+.container {
+  width: min(calc(100% - 30px), 800px);
+  margin-inline: auto;
+}
+
+.flow-4 > *:not(:first-child) {
+  margin-top: 20px;
+}
+.flow-6 > *:not(:first-child) {
+  margin-top: 30px;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#cant-click-me {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 10px;
+
+  color: white;
+
+  background-color: cornflowerblue;
+
+  cursor: default;
+}

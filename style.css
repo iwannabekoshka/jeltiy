@@ -1,21 +1,17 @@
-.box {
-    width: 300px;
+.red {
+  background-color: red;
 }
-.red{
-    background-color: red;
+.blue {
+  background-color: blue;
 }
-.blue{
-    background-color: blue;
+.text-red {
+  color: red;
 }
-.redText{
-    color: red;
+.text-black {
+  color: black;
 }
-.blackText{
-    color: black;
-}.aquaText{
-    color: aqua;
+.text-aqua {
+  color: aqua;
 }
-.blackText{
-    color: black;
-}
+
 /* Sofilie */
